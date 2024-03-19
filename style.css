@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Login screen styles */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #ac0606;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Game play screen styles */
+.game-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.coin {
+    width: 50px;
+    height: 50px;
+    background-color: #ffd700;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.coin.selected {
+    background-color: #ff4500;
+}
+
+/* Lost screen styles */
+.lost-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lost-container h2 {
+    color: #ff0000;
+}
+
+/* History screen styles */
+.history-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.history-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-container th,
+.history-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
